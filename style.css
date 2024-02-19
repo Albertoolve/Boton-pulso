@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+.button{
+    font-family: lato;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 2px solid #52057b;
+    border-radius: 10px;
+}
+
+.button:hover{
+    animation: pulse 1s;
+    ease-in-out;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0  25px #bc6ff1, 0 0 5px #892cdc;
+    }
+}
